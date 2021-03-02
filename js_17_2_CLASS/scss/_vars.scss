@@ -1,0 +1,46 @@
+// Font
+$Gotham-Ultra: "Gotham-Ultra";
+$Gotham: "Gotham";
+// Size
+$mainFontSize: 75px;
+$mainFontWeight: 900;
+$standartFontSize: 33px;
+$mainBorderRadius: 40px;
+
+$myDesktopWidth: 1450px;
+$desktopWidth: 1280px;
+$smDesktopWidth: 980px;
+$tableWidth: 768px;
+$phoneWidth: 480px;
+$smPhoneWidth: 320px;
+
+// Main color
+$default-colorBlue: #0178d6;
+$background-color: #1c2630;
+$hover-colorBlue: #0d4c7c;
+$default-white: #ffffff;
+
+// Border Color
+$border-base: #dcdfe6;
+$border-light: #e4e7ed;
+$border-lighter: #ebeef5;
+$border-lightex: #f2f6fc;
+
+@mixin ChargeBackground {
+  animation-name: colorChange;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  transition: 2s;
+}
+
+@mixin ChargeColor {
+  animation-name: colorText;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
+
+@mixin ChargeBorder {
+  animation-name: colorBorder;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+}
