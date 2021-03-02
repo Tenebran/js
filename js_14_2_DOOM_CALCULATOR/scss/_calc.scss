@@ -1,0 +1,63 @@
+.my__wrapper {
+  font-family: "Roboto Slab";
+  background: linear-gradient(81deg, #ddb35f, #7409c7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 950px;
+}
+
+.range {
+  margin: 0 0 20px 50px;
+}
+.wrapper__calc {
+  min-height: 280px;
+  width: 450px;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+.number {
+  color: rgba(8, 109, 192, 0.979);
+  font-size: 24px;
+  padding: 0 0 0 15px;
+  width: 70px;
+  height: 40px;
+  border: 1px solid red;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  border: 1px solid black;
+  width: 50px;
+  height: 110px;
+  margin: 10px 0 0 140px;
+  overflow: hidden;
+
+  &__red {
+    max-height: 8px;
+    background-color: red;
+    width: 100%;
+  }
+
+  &__green {
+    max-height: 100px;
+    background-color: green;
+    width: 100%;
+  }
+}
+
+.result {
+  background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px 0 0 0;
+  font-size: 24px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
