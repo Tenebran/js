@@ -1,0 +1,140 @@
+.login {
+  max-width: 420px;
+  border: 1px solid $neutral-borderColor;
+  overflow: hidden;
+  margin: 100px 0 0 100px;
+  border-radius: 10px;
+  font-family: 'Segoe UI';
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-colorBlue;
+    background-image: $mainLinearGradient;
+
+    &__titile {
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      color: $text-color;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 15px 0 0px 30px;
+      margin-right: 20px;
+    }
+
+    &__social {
+      display: flex;
+      height: 60px;
+    }
+
+    &__faceboock {
+      padding: 22px 31px 19px 29px;
+      border-left: 0.2px solid $border-colorBlue;
+      transition: 1.5s;
+
+      &:hover {
+        background: $backgroundHover-colorBlue;
+        transition: 1s;
+      }
+    }
+
+    &__twitter {
+      border-left: 1px solid $border-colorBlue;
+      padding: 22px 30px 20px 28px;
+      transition: 1.5s;
+
+      &:hover {
+        background: $backgroundHover-colorBlue;
+        transition: 1s;
+      }
+    }
+
+    &__google {
+      border-left: 1px solid $border-colorBlue;
+      padding: 23px 30px 18px 23px;
+      transition: 1.5s;
+
+      &:hover {
+        background: $backgroundHover-colorBlue;
+        transition: 1s;
+      }
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    background-color: $neutral-white;
+    font-size: $main-font;
+    letter-spacing: 0.18px;
+    margin: 54px 30px 50px;
+
+    &__name {
+      height: 55px;
+      margin: 0 0 21px;
+      border: 1px solid $neutral-placeholderBorder;
+      padding: 14px 50px 15px 24px;
+      background: url(../image/icon/email.png) no-repeat;
+      background-position: 311px 18px;
+      background-color: $neutral-placeholderBackground;
+      border-radius: $main-borderRadius;
+    }
+
+    &__year {
+      border: 1px solid $neutral-placeholderBorder;
+      padding: 14px 50px 15px 24px;
+      margin: 0 0 30px;
+      background: url(../image/icon/locked.png) no-repeat;
+      background-position: 313px 12px;
+      background-color: $neutral-placeholderBackground;
+      border-radius: $main-borderRadius;
+    }
+
+    &__key {
+      color: $neutral-white;
+      background-color: $redPinkMain-color;
+      background-image: $mainLinearGradient;
+      cursor: pointer;
+      padding: 18px 83px 18px 84px;
+      border-radius: $main-borderRadius;
+      transition: 2s;
+
+      &:hover {
+        background-color: $redPinkHoverMain-color;
+        transition: 1.5s;
+      }
+    }
+  }
+
+  &__footer {
+    max-height: 59px;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 22px 0 19px;
+    font-size: $main-font;
+    letter-spacing: 0.18px;
+
+    &__new {
+      margin: 0 5px 0 0;
+      color: #929292;
+      transition: 1.5s;
+
+      &:hover {
+        font-size: 20px;
+        color: $backgroundHover-colorBlue;
+        transition: 1.5s;
+      }
+    }
+
+    &__sing {
+      color: $redPinkMain-color;
+      transition: 1.5s;
+
+      &:hover {
+        font-size: 20px;
+        color: $redPinkHoverMain-color;
+        transition: 1.5;
+      }
+    }
+  }
+}

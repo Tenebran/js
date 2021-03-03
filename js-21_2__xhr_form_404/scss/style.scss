@@ -1,0 +1,28 @@
+@import './reset';
+@import './vars';
+@import './common';
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: local('☺'), url('../fonts/segoeui.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input.placeholderred::-webkit-input-placeholder {
+  color: #f3585e;
+}
+
+input.placeholdergreen::-webkit-input-placeholder {
+  color: #4cf37e;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; 
